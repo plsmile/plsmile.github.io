@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[解决Hexo博客引入本地图片不显示问题]]></title>
+    <url>%2F2019%2F06%2F03%2Fhexo-pic%2F</url>
+    <content type="text"><![CDATA[问题 ：引入本地图片只显示一个框，图片显示不出来解决方法：首先，找到_config.yml配置文件post_asset_folder项并改为true。 在_posts下创建博客：以我创建的hexo-pic为例： 使用该命令之后，在source/_post文件夹里面就会出现一个“hexo_pic.md”的文件和一个“hexo_pic”的文件夹。 将你需要用的图片放到生成的和md同名的文件夹下即可。引用图片的方法：]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[用Navicat for Mysql导入sql文件]]></title>
+    <url>%2F2019%2F06%2F03%2Fnavicat%2F</url>
+    <content type="text"><![CDATA[Navicat for Mysql 是应用比较多的mysql的视图管理工具。学习中几次都需要导入.sql文件，而自己每次都需要去查阅才知道，在这里记录下Navicat for Mysql如何导入sql文件。 首先创建一个数据库（可以在左侧点击右键，新建数据库）。 输入数据库的名称，选择utf-8编码。 双击你新建的数据库，使之显示绿色转台。然后在该数据库的名称上面点击右键，选择运行SQL文件。 点击如图所示的图标来查找你要运行的sql文件。 注意当你要运行的sql文件有多个的时候，一定要注意它们的先后顺序。比如先有建表的sql,才有插入数据的sql。 选中之后，点击确定，它就会运行sql语句。如果成功，会显示successfully。点击关闭。 此时点击你的运行sql文件的数据库，然后F5刷新，就能看到sql的效果了。（比如有表结构和数据）。]]></content>
+      <categories>
+        <category>大数据</category>
+      </categories>
+      <tags>
+        <tag>mysql</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hello]]></title>
+    <url>%2F2019%2F05%2F31%2Fhello%2F</url>
+    <content type="text"><![CDATA[HelloThis is my first article! The earliest time is when you thik it’s too late.觉得已经晚了的时候，就是最早的时候。Like sunny mornings as if everything could start over again.喜欢有太阳的早上仿佛什么都可以重新开始。]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>HTML</tag>
+        <tag>CSS</tag>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F05%2F31%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
